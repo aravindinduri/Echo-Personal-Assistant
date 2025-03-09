@@ -1,0 +1,9 @@
+google-generativeai
+SpeechRecognition
+gtts
+pydub
+selenium
+openai
+pynput
+requests
+adb-shell
