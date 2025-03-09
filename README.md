@@ -67,34 +67,55 @@ python3 main.py
 
 - Type **"text"** to enter commands manually.
 - Type **"voice"** to use voice commands.
+### **Give Commands:**
 
-### Give Commands:
 
-#### General Queries:
-
+#### 🔍 **General Queries:**  
+```bash
+What is the capital of Japan?
+Tell me a fun fact about space.
+How does machine learning work?
+What’s the weather like today?
+Define artificial intelligence.
 ```
-Who is the Prime Minister of India?
-```
-
-#### Perform System Tasks:
-
+#### 🖥️ Perform System Tasks:
 ```
 Open VS Code
+Shutdown the system
+Increase volume to 50%
+Show my Wi-Fi password
+List all running processes
+Play a movie from my downloads folder
+Create a new file named "HelloWorld.java"
+Write a Java program to print "Hello, World!"
+
 ```
 
-#### Search the Web:
+#### 📱 Mobile Control Tasks:
 
-```
-Search for the latest AI trends
-```
-
-#### Control Your Phone:
 
 ```
 Send a text to Mom: "Hey, I’ll be home soon."
-Check my battery status.
-Call John.
+Check my phone battery status
+Call John
+Turn on Bluetooth
+Play the next song on Spotify
+Take a screenshot on my phone
 ```
+#### 🌍 Browser Tasks:
+```
+Search for the latest AI trends
+Find the top 10 programming languages in 2025
+Show recent advancements in robotics
+Find best Linux distributions for developers
+Who won the last FIFA World Cup?
+Open browser
+Connect to the internet
+Open LinkedIn
+Add a connection request to a recruiter from Google on LinkedIn
+
+```
+
 
 #### Exit the Assistant:
 
@@ -128,7 +149,7 @@ Say "exit", "quit", or "bye" to close the assistant.
 ---
 
 ## 🎥 **Demo**
-Watch the demo video here: [Demo Link](#)
+Watch the demo video here: [Demo Link](https://shorturl.at/UumGi)
 
 ---
 
