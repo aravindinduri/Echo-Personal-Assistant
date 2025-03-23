@@ -82,7 +82,7 @@ def find_file_path(json_data, filename):
     for directory, files in json_data.items():
         for file in files:
             if file["name"].lower() == filename.lower():
-                return os.path.join(directory, filename)
+                return os.path.join(directory, file["name"])  
     return None
 
 def execute_command(command, file_path=None):
@@ -92,16 +92,18 @@ def execute_command(command, file_path=None):
 
     if file_path:
         working_directory = os.path.dirname(file_path)
-        full_command = command.replace("<filepath>", file_path)
+        full_command = f"{command} {file_path}"  
     else:
         working_directory = os.path.expanduser("~")
         full_command = command
 
-    speak(f"Executing command:")
+    speak(f"Executing:")
     print(f"🚀 Running:")
 
-    subprocess.Popen([
-        "gnome-terminal",
-        "--working-directory", working_directory,
-        "--", "bash", "-c", f"{full_command}; exec bash"
-    ])
+    subprocess.run(full_command, shell=True, cwd=working_directory, check=True)
+
+if __name__ == "__main__":
+    json_data = load_json("files.json")
+    if json_data:
+        file_path = find_file_path(json_data, "example.txt")
+        execute_command("cat", file_path)  

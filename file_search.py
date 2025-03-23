@@ -16,4 +16,4 @@ def find_file_path(json_data, filename):
         for file in files:
             if file["name"] == filename:
                 return os.path.join(directory, filename)
-    return None  # File not found
+    return None

@@ -3,11 +3,14 @@ __pycache__/
 *.py[cod]
 *.so
 *.pyd
-
+get-pip.py
 # Virtual environment
 venv/
 .env/
 
+cleaned_audio.wav
+data.json
+recorded_audio.wav
 # Configuration files
 config.py
 *.log

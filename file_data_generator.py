@@ -5,10 +5,10 @@ import re
 
 EXCLUDED_DIRS = {
     "node_modules", "__pycache__", ".git", ".vscode", ".idea", "venv", "env",
-    "build", "dist", "tmp"
+    "build", "dist", "tmp",
 }
 
-EXCLUDED_EXTENSIONS = {".code", ".log", ".tmp", ".swp", ".bak", ".lock", ".cache"}
+EXCLUDED_EXTENSIONS = {".code", ".log", ".tmp", ".swp", ".bak", ".lock", ".cache",".zip"}
 
 def is_valid_file(file_name):
     """Checks if the file is not hidden, does not contain special characters, and is not in excluded extensions."""

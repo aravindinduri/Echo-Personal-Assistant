@@ -2,7 +2,7 @@ from browser_use import Agent, Browser, BrowserConfig
 from config import API_KEY, CHROME_PATH
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash-exp', api_key=API_KEY)
+llm = ChatGoogleGenerativeAI(model='gemini-1.5-pro', api_key=API_KEY)
 
 browser = Browser(config=BrowserConfig(chrome_instance_path=CHROME_PATH))
 
