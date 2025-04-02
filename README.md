@@ -24,7 +24,6 @@
 | `browser_helper.py`   | Manages web searches using a browser instance.            |
 | `ai_assistant.py`     | Connects to Google Gemini AI and processes responses.     |
 | `command_executor.py` | Runs and executes system commands in a new terminal.      |
-| `phone_control.py`    | Manages remote phone control features.                    |
 | `conversation.py`     | Manages user interactions and response handling.          |
 | `file_data_generator.py` | Handles data file generation for processing.            |
 | `requirements.txt`    | List of dependencies required for the project.            |
