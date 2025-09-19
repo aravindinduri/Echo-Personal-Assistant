@@ -94,10 +94,7 @@ Write a Java program to print "Hello, World!"
 
 
 ```
-Send a text to Mom: "Hey, I’ll be home soon."
-Check my phone battery status
 Call John
-Turn on Bluetooth
 Play the next song on Spotify
 Take a screenshot on my phone
 ```
